@@ -22,14 +22,15 @@
 
 /* assignments page */
 
-#grades_summary a.toggle_comments_link
+#grades_summary a.toggle_comments_link,
 #grades_summary a.toggle_rubric_assessments_link {
     background-color: #1f1f1f;
     border: 1px solid #3c3c3c;
 }
 
-[class*="-pill"] {
+[class$="-pill"] {
     background: #000;
+    color: rgb(2, 150, 234);
 }
 
 /* assignment details page */

@@ -19,9 +19,17 @@ header p {
 /* Box */
 /*******/
 
-[class*="column two"] {
+.column.two {
     background: #212121;
     color: #d8d8d8;
+}
+
+.column.two h2 {
+    color: #e7e7e7;
+}
+
+.column.two p {
+    color: #bbb;
 }
 
 p {

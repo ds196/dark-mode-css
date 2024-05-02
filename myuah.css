@@ -139,6 +139,34 @@ div.show-more-card {
     color: #dbdbdb;
 }
 
+.MuiPopover-paper span {
+    color: #eee;
+}
+
+.MuiPopover-paper p.MuiTypography-root {
+    color: #c6c6c6;
+}
+
+.MuiPopover-paper button svg {
+    fill: #c4c4c4;
+}
+
+.MuiPopover-paper li.MuiListItemButton-root {
+    background-color: #353535;
+}
+
+.MuiPopover-paper li.MuiListItemButton-root:hover {
+    background-color: #4f4f4f;
+}
+
+.MuiPopover-paper li.MuiListItemButton-root span.MuiTypography-root {
+    color: #aaa;
+}
+
+.MuiPopover-paper hr {
+    border-color: #646464;
+}
+
 /*Can't edit the mailto a colors... rip*/
 
 /* Discover */

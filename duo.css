@@ -1,0 +1,26 @@
+.app {
+    background: #171717;
+}
+
+.card {
+    background: #2a2a2a;
+    color: #b6b6b6;
+}
+
+h1 {
+    color: #e8e8e8;
+}
+
+input {
+    color: #d8d8d8;
+}
+
+.button--primary--full-width,
+.c--primary {
+    background: #c6c6c6;
+    color: #003ee4;
+}
+
+.help-link {
+    color: #3c7083;
+}

@@ -1,0 +1,43 @@
+body {
+    background: #0f0f0f;
+}
+
+header p {
+    color: #d8d8d8;
+}
+
+.container-footer,
+.col-6 p {
+    color: #d8d8d8;
+}
+
+.col-6 a {
+    color: #7f92a1
+}
+
+/*******/
+/* Box */
+/*******/
+
+[class*="column two"] {
+    background: #212121;
+    color: #d8d8d8;
+}
+
+p {
+    color: #969696;
+}
+
+input, .form-field {
+    background-color: #0f0f0f;
+    border: 2px solid #2a2a2a;
+    color: #bababa;
+}
+
+input:focus, .form-field:focus {
+    color: #e6e6e6;
+}
+
+.fa-question-circle {
+    color: white;
+}

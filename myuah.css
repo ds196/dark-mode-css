@@ -12,6 +12,11 @@ body {
     border-radius: 4px;
 }
 
+/* Big blue accordion buttons */
+.MuiAccordion-gutters .MuiAccordionSummary-root {
+    background-color: #00487a;
+}
+
 /* Elipses */
 .MuiCardHeader-root .MuiCardHeader-action button svg {
     fill: #d5d5d5;

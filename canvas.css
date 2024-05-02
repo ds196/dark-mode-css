@@ -22,11 +22,7 @@
 
 /* assignments page */
 
-#grades_summary a.toggle_comments_link {
-    background-color: #1f1f1f;
-    border: 1px solid #3c3c3c;
-}
-
+#grades_summary a.toggle_comments_link
 #grades_summary a.toggle_rubric_assessments_link {
     background-color: #1f1f1f;
     border: 1px solid #3c3c3c;
@@ -44,28 +40,39 @@
     color: #eaeaea;
 }
 
+/* Turnitin Similarity score */
+a.turnitin_similarity_score {
+    color: #eee !important;
+}
+
 /* Rubrick */
 
-[class*="-colHeader"] {
-    color: #e8e8e8;
+/* "Select Grader" */
+[class*="-formFieldLayout"] [class*="-formFieldLabel"] {
+    color: #c4c4c4;
 }
 
-[class*="-view-row"] {
+.react-rubric table th,
+.react-rubric table td {
     background: #1f1f1f;
     color: #e8e8e8;
+    border: 2px solid #363535;
 }
 
-[class*="-view-cell"] {
-    background: #1f1f1f;
-    color: #e8e8e8;
+.react-rubric table td div.rating-tier {
+    border-left: 3px solid #5a5a5a;
+}
+
+/* Assignment Submission Preview */
+
+.ViewerControls {
+    scrollbar-color: darkblue lightblue;
 }
 
 /* Compose Message Box */
 
 /** Background fade */
-.transition--fade-entered {
-    background: rgba(25, 25, 25, 0.75);
-}
+.transition--fade-entered,
 [class*="-mask"] {
     background: rgba(25, 25, 25, 0.75);
 }

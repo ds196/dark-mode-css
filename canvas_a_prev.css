@@ -8,7 +8,11 @@
 /*      ds0196@uah.edu     */
 /***************************/
 
-div#App nav.ViewerControls {
-    scrollbar-color: #999 #464f5b;
+div#App nav.ViewerControls,
+div#app div.Pages {
+    scrollbar-color: #999 #414a55;
 }
 
+div#App div.Pages {
+    background: #313941;
+}

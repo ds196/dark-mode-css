@@ -66,8 +66,8 @@ a.turnitin_similarity_score {
 
 /* Assignment Submission Preview */
 
-.ViewerControls {
-    scrollbar-color: darkblue lightblue;
+div iframe {
+    border-left: none !important;
 }
 
 /* Compose Message Box */

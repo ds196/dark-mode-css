@@ -1,3 +1,12 @@
+/***************************/
+/*        Dark Mode        */
+/***************************/
+/*   uah.instructure.com   */
+/***************************/
+/* Written by David Sharpe */
+/*      ds0196@uah.edu     */
+/***************************/
+
 [class*="-textInput__facade"] {
     background: #2c2c2c;
     border: 1px solid #3c3c3c !important;

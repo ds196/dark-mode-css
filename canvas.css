@@ -1,0 +1,87 @@
+[class*="-textInput__facade"] {
+    background: #2c2c2c;
+    border: 1px solid #3c3c3c !important;
+}
+
+[class*="-inlineSVG-svgIcon"] {
+    color: #ffffff;
+}
+
+[class*="-radioInput__label"] {
+    color: #6c6c6c;
+}
+
+/* assignments page */
+
+#grades_summary a.toggle_comments_link {
+    background-color: #1f1f1f;
+    border: 1px solid #3c3c3c;
+}
+
+#grades_summary a.toggle_rubric_assessments_link {
+    background-color: #1f1f1f;
+    border: 1px solid #3c3c3c;
+}
+
+[class*="-pill"] {
+    background: #000;
+}
+
+/* assignment details page */
+
+[class*="-baseButton__content"] {
+    background: #292929;
+    border-color: #3c3c3c;
+    color: #eaeaea;
+}
+
+/* Rubrick */
+
+[class*="-colHeader"] {
+    color: #e8e8e8;
+}
+
+[class*="-view-row"] {
+    background: #1f1f1f;
+    color: #e8e8e8;
+}
+
+[class*="-view-cell"] {
+    background: #1f1f1f;
+    color: #e8e8e8;
+}
+
+/* Compose Message Box */
+
+/** Background fade */
+.transition--fade-entered {
+    background: rgba(25, 25, 25, 0.75);
+}
+[class*="-mask"] {
+    background: rgba(25, 25, 25, 0.75);
+}
+
+[class*="-modal"] {
+    background: #161616;
+    border-color: #3c3c3c;
+}
+
+[class*="-view--block-modalBody"] {
+    color: #e8e8e8;
+}
+
+[class*="-checkboxFacade__label"] {
+    color: #a0a0a0;
+}
+
+[class*="-view-tag"] {
+    background: #292929;
+    border-color: #3c3c3c;
+}
+[class*="-tag__text"] {
+    color: #e8e8e8;
+}
+
+[class*="-view"] {
+    border-color: #3c3c3c;
+}

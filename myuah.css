@@ -72,12 +72,17 @@ div.eds-actionmenu-popper li:focus span {
 }
 
 /* Web links */
+
 div.eee-dashboard-links-widget__item:hover {
     background-color: #595959;
 }
 
 .link-item__title a {
     color: #00b4f0;
+}
+
+.link-item__title a:hover {
+    color: #00bfff;
 }
 
 .MuiPaper-root ul li {
@@ -93,6 +98,16 @@ div.eee-dashboard-links-widget__item:hover {
 
 a svg.ds-icon.ds-link {
     color: #aaa;
+}
+
+/* Sign-out */
+
+.MuiDialog-paper h2 {
+    color: #e8e8e8;
+}
+
+.MuiDialog-paper p {
+    color: #cacaca;
 }
 
 /* Drawer */

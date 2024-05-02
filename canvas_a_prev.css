@@ -1,0 +1,14 @@
+/***************************/
+/*        Dark Mode        */
+/***************************/
+/*   uah.instructure.com   */
+/*   Assignment Preview    */
+/***************************/
+/* Written by David Sharpe */
+/*      ds0196@uah.edu     */
+/***************************/
+
+div#App nav.ViewerControls {
+    scrollbar-color: #999 #464f5b;
+}
+

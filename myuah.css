@@ -1,0 +1,196 @@
+body {
+    background: #1b1b1b;
+}
+
+.MuiPaper-root {
+    background-color: #353535;
+}
+
+.MuiCardHeader-root {
+    background-color: #353535;
+    color: #e9e8e8;
+    border-radius: 4px;
+}
+
+/* Elipses */
+.MuiCardHeader-root .MuiCardHeader-action button svg {
+    fill: #d5d5d5;
+}
+
+.eee-dashboard-links-widget__item button svg {
+    fill: #c4c4c4;
+}
+
+/* Popup window */
+
+div.eds-actionmenu-popper div.hedtech-popper-arrow {
+    border-bottom-color: #404040;
+}
+
+div.eds-actionmenu-popper li span {
+    color: #e0e0e0;
+}
+
+div.eds-actionmenu-popper li:hover {
+    background-color: #6d6c6c;
+}
+
+div.eds-actionmenu-popper li:hover span {
+    color: #fff;
+}
+
+div.eds-actionmenu-popper li:focus {
+    background-color: #6d6c6c;
+}
+
+div.eds-actionmenu-popper li:focus span {
+    color: #fff;
+}
+
+/* idk anymore */
+
+.MuiCardContent-root {
+    background-color: #353535;
+}
+
+/* Border between card items */
+.MuiCardContent-root .MuiPaper-root hr {
+    border-color: #005273;
+}
+
+.MuiCardContent-root div {
+    scrollbar-color: #555 #282828;
+}
+
+.MuiCardContent-root a {
+    color: #00b4f0;
+}
+
+/* Web links */
+div.eee-dashboard-links-widget__item:hover {
+    background-color: #595959;
+}
+
+.link-item__title a {
+    color: #00b4f0;
+}
+
+.MuiPaper-root ul li {
+    color: #717171;
+}
+
+/* Big buttons in cards */
+.MuiButton-root {
+    background-color: #5b5b5b;
+    color: #dadada;
+    border-color: #3c3c3c;
+}
+
+a svg.ds-icon.ds-link {
+    color: #aaa;
+}
+
+/* Drawer */
+
+.MuiDrawer-root .MuiPaper-root div {
+    background-color: #353535;
+    color: #eee;
+}
+
+.MuiDrawer-root .MuiPaper-root nav.MuiList-root {
+    background-color: #353535;
+    color: #eee;
+}
+
+.MuiDrawer-root .MuiPaper-root nav.MuiList-root li.MuiButtonBase-root:hover {
+    background-color: #353535;
+    color: #fff;
+}
+
+.MuiDrawer-root .MuiPaper-root nav.MuiList-root li.MuiButtonBase-root:focus {
+    background-color: #353535;
+    color: #fff;
+}
+
+.MuiDrawer-root .MuiPaper-root nav.MuiList-root a.MuiButtonBase-root:hover {
+    background-color: #353535;
+    color: #eee;
+}
+
+.MuiPaper-root div button svg.ds-icon {
+    color: #b9b8b8;
+}
+
+/* Title IX Card */
+
+.MuiCardContent-root div.ql-editor {
+    background-color: #353535;
+    color: #fff;
+}
+
+/* Students Show More Card */
+
+div.show-more-card {
+    color: #dbdbdb;
+}
+
+/*Can't edit the mailto a colors... rip*/
+
+/* Discover */
+
+.MuiInputBase-root input.MuiInput-input {
+    color: #aaa;
+}
+
+/* "No results found, try again" */
+/*.MuiPopperUnstyled-root div {
+    background-color: #888;
+    color: #eee;
+}*/
+
+/* "SORT BY" */
+span.MuiTypography-caption {
+    color: #d5d5d5;
+}
+
+.MuiList-root .MuiListItem-button {
+    color: #eee;
+}
+
+.MuiList-root .MuiListItem-button svg {
+    fill: #afafaf;
+}
+
+.MuiPopover-root.MuiMenu-root .MuiPaper-root .MuiButtonBase-root {
+    color: #aaa;
+}
+
+.MuiPopover-root.MuiMenu-root .MuiPaper-root .MuiButtonBase-root:hover {
+    background-color: #555;
+}
+
+div.MuiChip-filled {
+    background-color: #404040;
+    border-color: #3e3e3e;
+    color: #eee;
+}
+
+div.MuiChip-filled:hover {
+    background-color: #535353;
+    border-color: #3e3e3e;
+    color: #e2dede;
+}
+
+div#sliding-carousel-container button.MuiButtonBase-root {
+    background-color: #555;
+    border-color: #404040;
+}
+
+div#sliding-carousel-container button.MuiButtonBase-root:hover {
+    background-color: #696868;
+    border-color: #404040;
+}
+
+div#sliding-carousel-container button.MuiButtonBase-root svg.ds-icon {
+    color: #eee;
+}

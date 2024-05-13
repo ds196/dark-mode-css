@@ -58,3 +58,43 @@ input:focus, .form-field:focus, #username:focus {
 .fa-question-circle {
     color: white;
 }
+
+/************************************/
+/* Loading Session Information Page */
+/************************************/
+
+main.main {
+    background-color: #343434;
+}
+
+section h1 {
+    color: #d4d3d9;
+}
+
+section p {
+    color: #bbb;
+}
+
+/**********************/
+/* Stale Request Page */
+/**********************/
+
+div.wrapper {
+    background: #0f0f0f;
+}
+
+div.wrapper header h3 { /* Web Login Service - Stale Request */
+    color: #c4c4c4;
+}
+
+div.container div.content { /* p holder */
+    background: #272727;
+}
+
+div.container div.content p {
+    color: #fff;
+}
+
+footer p.footer-text {
+    color: #b7b7b7;
+}

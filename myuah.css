@@ -199,6 +199,14 @@ div.show-more-card {
     color: #aaa;
 }
 
+/* Maintence Announcement */
+div#maincontent div#sliding-carousel-container div.MuiPaper-root div.MuiTypography-root {
+    color: #d5d5d5;
+}
+div#maincontent div#sliding-carousel-container div.MuiPaper-root span.MuiTypography-root.MuiTypography-body2 {
+    color: #a0a0a0;
+}
+
 /* "No results found, try again" */
 /*.MuiPopperUnstyled-root div {
     background-color: #888;

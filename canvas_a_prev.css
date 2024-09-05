@@ -8,11 +8,13 @@
 /*      ds0196@uah.edu     */
 /***************************/
 
+/* Scrollbar dark mode */
 div#App nav.ViewerControls,
 div#app div.Pages {
     scrollbar-color: #999 #414a55;
 }
 
+/* Background close to top control bar */
 div#App div.Pages {
     background: #313941;
 }

@@ -35,7 +35,9 @@ body {
     fill: #c4c4c4;
 }
 
-/* Popup window */
+/***************************/
+/*       Popup window      */
+/***************************/
 
 div.eds-actionmenu-popper div.hedtech-popper-arrow {
     border-bottom-color: #404040;
@@ -61,7 +63,9 @@ div.eds-actionmenu-popper li:focus span {
     color: #fff;
 }
 
-/* idk anymore */
+/***************************/
+/*       idk anymore       */
+/***************************/
 
 .MuiCardContent-root {
     background-color: #353535;
@@ -80,7 +84,9 @@ div.eds-actionmenu-popper li:focus span {
     color: #00b4f0;
 }
 
-/* Web links */
+/***************************/
+/*        Web links        */
+/***************************/
 
 div.eee-dashboard-links-widget__item:hover {
     background-color: #595959;
@@ -109,7 +115,9 @@ a svg.ds-icon.ds-link {
     color: #aaa;
 }
 
-/* Sign-out */
+/***************************/
+/*         Sign-out        */
+/***************************/
 
 .MuiDialog-paper h2 {
     color: #e8e8e8;
@@ -119,7 +127,9 @@ a svg.ds-icon.ds-link {
     color: #cacaca;
 }
 
-/* Drawer */
+/***************************/
+/*          Drawer         */
+/***************************/
 
 .MuiDrawer-root .MuiPaper-root div {
     background-color: #353535;
@@ -150,14 +160,18 @@ a svg.ds-icon.ds-link {
     color: #b9b8b8;
 }
 
-/* Title IX Card */
+/***************************/
+/*      Title IX Card      */
+/***************************/
 
 .MuiCardContent-root div.ql-editor {
     background-color: #353535;
     color: #fff;
 }
 
-/* Students Show More Card */
+/*****************************/
+/*  Students Show More Card  */
+/*****************************/
 
 div.show-more-card {
     color: #dbdbdb;
@@ -191,9 +205,12 @@ div.show-more-card {
     border-color: #646464;
 }
 
-/*Can't edit the mailto a colors... rip*/
+/* Can't edit the mailto a colors... rip 
+*/
 
-/* Discover */
+/***************************/
+/*         Discover        */
+/***************************/
 
 .MuiInputBase-root input.MuiInput-input {
     color: #aaa;

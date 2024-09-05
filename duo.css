@@ -16,20 +16,36 @@
     color: #b6b6b6;
 }
 
+/* "Send a text passcode" */
 h1 {
-    color: #e8e8e8;
+    color: #eaeaea;
 }
 
+/* "Send a passcode" */
+.button--primary--full-width,
+.c--primary {
+    background: #5a5a5a;
+    border-color: #444;
+    color: #b6c9ff;
+}
+
+/* "Need help?" in bottom left */
+.help-link {
+    color: #73a5b7;
+}
+
+/***************************/
+/*   Enter your passcode   */
+/***************************/
+
+/* Passcode input */
 input {
     color: #d8d8d8;
 }
 
-.button--primary--full-width,
-.c--primary {
-    background: #c6c6c6;
-    color: #003ee4;
-}
-
-.help-link {
-    color: #3c7083;
+/* "Verify" */
+button.verify-button:disabled {
+    background: #383838;
+    border-color: #2b2b2b;
+    color: #535d7c;
 }

@@ -23,6 +23,16 @@
 
 
 /***************************/
+/*    Quiz details page    */
+/***************************/
+
+/* Quiz score */
+div#content div#quiz_show div.quiz-submission span.score_value {
+    color: #f5f5f5;
+}
+
+
+/***************************/
 /*     Assignments page    */
 /***************************/
 

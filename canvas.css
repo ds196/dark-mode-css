@@ -22,9 +22,9 @@
 }
 
 
-/*==========================/
-      Assignments page 
-===========================*/
+/***************************/
+/*     Assignments page    */
+/***************************/
 
 #grades_summary a.toggle_comments_link,
 #grades_summary a.toggle_rubric_assessments_link {
@@ -38,9 +38,9 @@
 }
 
 
-/*==========================/
-  Assignments details page 
-===========================*/
+/******************************/
+/*  Assignments details page  */
+/******************************/
 
 [class*="-baseButton__content"] {
     background: #292929;
@@ -54,9 +54,9 @@ a.turnitin_similarity_score {
 }
 
 
-/*==========================/
-          Rubrick 
-===========================*/
+/***************************/
+/*         Rubrick         */
+/***************************/
 
 /* "Select Grader" */
 [class*="-formFieldLayout"] [class*="-formFieldLabel"] {
@@ -75,18 +75,18 @@ a.turnitin_similarity_score {
 }
 
 
-/*==========================/
-Assignment Submission Preview
-===========================*/
+/***********************************/
+/*  Assignment Submission Preview  */
+/***********************************/
 
 div iframe {
     border-left: none !important;
 }
 
 
-/*==========================/
-     Compose Message Box
-===========================*/
+/***************************/
+/*   Compose Message Box   */
+/***************************/
 
 /** Background fade */
 .transition--fade-entered,

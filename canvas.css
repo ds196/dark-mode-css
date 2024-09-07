@@ -36,7 +36,7 @@ div#content div#quiz_show div.quiz-submission span.score_value {
 /*     Assignments page    */
 /***************************/
 
-#grades_summary a.toggle_comments_link,
+X#grades_summary a.toggle_comments_link,
 #grades_summary a.toggle_rubric_assessments_link {
     background-color: #1f1f1f;
     border: 1px solid #3c3c3c;
@@ -52,15 +52,50 @@ div#content div#quiz_show div.quiz-submission span.score_value {
 /*  Assignments details page  */
 /******************************/
 
+/* Header */
+div[data-testid="assignments-2-student-view"]>div[class$="-view"] {
+    background-color: #161616;
+}
+
+/* Header text */
+div[data-testid="assignments-2-student-view"] span[class$="-text"] {
+    color: #aaa;
+}
+
+/* Misc buttons */
 [class*="-baseButton__content"] {
     background: #292929;
     border-color: #3c3c3c;
+    color: #eaeaea !important;
+}
+
+/* "Canvas Files" */
+button[class$="-view--block-baseButton"] span[class$=""] {
     color: #eaeaea;
 }
 
 /* Turnitin Similarity score */
 a.turnitin_similarity_score {
     color: #eee !important;
+}
+
+/* Attempt tab */
+
+/* Drag a file here box */
+div[data-testid="attempt-tab"] span[class$="-view--block"] span[class$="-view--flex-flex"] {
+    background-color: #292929;
+}
+div[data-testid="attempt-tab"] span[class$="-fileDrop__labelContent"] {
+    border-color: #575757;
+}
+/* "Files permitted" */
+div[data-testid="attempt-tab"] span[class$="-fileDrop__labelContent"] span[class$="-view--flex-flex"] span[class$="-view-flexItem"]+span span+span+span {
+    color: #838383;
+}
+
+/* "or" */
+div#content.ic-Layout-contentMain div[data-testid="upload-box"]>span>div>div>span {
+    background-color: #1e1e1e !important;
 }
 
 

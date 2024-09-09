@@ -98,6 +98,20 @@ div#content.ic-Layout-contentMain div[data-testid="upload-box"]>span>div>div>spa
     background-color: #1e1e1e !important;
 }
 
+/* "File name" header */
+span[data-testid="upload-pane"] table>thead th {
+    color: #999;
+}
+
+/* Item uploaded background */
+span[data-testid="upload-pane"] table>tbody>tr>td {
+    background-color: #1e1e1e;
+}
+/* Item uploaded name */
+span[data-testid="upload-pane"] table>tbody>tr>td>span {
+    color: #cecece;
+}
+
 
 /***************************/
 /*         Rubrick         */

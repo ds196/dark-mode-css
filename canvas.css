@@ -23,6 +23,22 @@
 
 
 /***************************/
+/*      Modules page       */
+/***************************/
+
+/* "Drop files here to add to module" */
+label[class$="-fileDrop__label"] span[class$="-view-billboard"] {
+    background-color: #181818;
+}
+label[class$="-fileDrop__label"] span[class$="-view-billboard"] span[class$="-view-heading"] {
+    color: #afafaf;
+}
+label[class$="-fileDrop__label"] span[class$="-fileDrop__labelContent"] {
+    border: 0.125rem dashed #5c5c5c;
+}
+
+
+/***************************/
 /*    Quiz details page    */
 /***************************/
 
@@ -67,6 +83,9 @@ div[data-testid="assignments-2-student-view"] span[class$="-text"] {
     background: #292929;
     border-color: #3c3c3c;
     color: #eaeaea !important;
+}
+a[class$="-view--inlineBlock-baseButton"]:active {
+    background: #0e0e0e;
 }
 
 /* "Canvas Files" */

@@ -63,6 +63,16 @@ X#grades_summary a.toggle_comments_link,
     color: rgb(2, 150, 234);
 }
 
+/* Uploaded files list */
+table[data-testid="uploaded_files_table"] tbody tr td {
+    background: #262626;
+}
+table[data-testid="uploaded_files_table"] thead tr th {
+    color: #aaa;
+}
+table[data-testid="uploaded_files_table"] tbody tr td[data-testid="file-size"] {
+    color: #aaa;
+}
 
 /******************************/
 /*  Assignments details page  */

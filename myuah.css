@@ -281,3 +281,13 @@ div#sliding-carousel-container button.MuiButtonBase-root:hover {
 div#sliding-carousel-container button.MuiButtonBase-root svg.ds-icon {
     color: #eee;
 }
+
+/***************************/
+/*     Sliding Carousel    */
+/***************************/
+
+/* Bottom left link */
+div#sliding-carousel-container>div>div a:hover {
+    color: #01e6ff;
+}
+

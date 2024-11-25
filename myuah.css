@@ -88,7 +88,7 @@ div.eds-actionmenu-popper li:focus span {
 /*        Web links        */
 /***************************/
 
-div.eee-dashboard-links-widget__item:hover {
+li.eee-dashboard-links-widget__item:hover {
     background-color: #595959;
 }
 
@@ -205,8 +205,13 @@ div.show-more-card {
     border-color: #646464;
 }
 
-/* Can't edit the mailto a colors... rip 
-*/
+/* Employees Show More Card */
+
+div#empLinks_subcard>p {
+    color: #dbdbdb;
+}
+
+/*Can't edit the mailto a colors... rip*/
 
 /***************************/
 /*         Discover        */

@@ -23,6 +23,17 @@
 
 
 /***************************/
+/*        Dashboard        */
+/***************************/
+
+/* Notification Message */
+
+div.ic-notification span.notification_message p>span {
+    color: #8e8e8e !important;
+}
+
+
+/***************************/
 /*      Modules page       */
 /***************************/
 

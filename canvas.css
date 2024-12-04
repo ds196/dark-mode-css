@@ -21,6 +21,11 @@
     color: #6c6c6c;
 }
 
+/* Side bar bubble numbers */
+ul#menu.ic-app-header__menu-list span.menu-item__badge>span {
+    color: #252525;
+}
+
 
 /***************************/
 /*        Dashboard        */
@@ -92,6 +97,16 @@ tr.student_assignment.selected-assignment {
 
 
 /***************************/
+/*      Calendar page      */
+/***************************/
+
+/* Event clicked popup */
+body>div.event-details {
+    background-color: #141414 !important;
+}
+
+
+/***************************/
 /*      Modules page       */
 /***************************/
 
@@ -137,6 +152,7 @@ table[data-testid="uploaded_files_table"] thead tr th {
 table[data-testid="uploaded_files_table"] tbody tr td[data-testid="file-size"] {
     color: #aaa;
 }
+
 
 /******************************/
 /*  Assignments details page  */
@@ -233,6 +249,16 @@ span[data-testid="upload-pane"] table>tbody>tr>td>span {
 
 div iframe {
     border-left: none !important;
+}
+
+
+/***************************/
+/*        Inbox Page       */
+/***************************/
+
+/* Checkbox */
+span#inbox-conversation-holder div[class$="-checkbox"]>label>span>span {
+    background-color: #252525;
 }
 
 

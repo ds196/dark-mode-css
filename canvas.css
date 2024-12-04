@@ -246,3 +246,13 @@ div iframe {
 [class*="-view"] {
     border-color: #3c3c3c;
 }
+
+
+/***************************/
+/*   Compose Message Box   */
+/***************************/
+
+/* Selected file */
+div.ef-directory div.ef-item-row.ef-item-selected {
+    background-color: #2f2f2f;
+}

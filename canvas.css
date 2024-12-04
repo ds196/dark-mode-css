@@ -27,9 +27,33 @@
 /***************************/
 
 /* Notification Message */
-
 div.ic-notification span.notification_message p>span {
     color: #8e8e8e !important;
+}
+
+/* After closing message */
+div#announcementWrapper div[data-testid="globalAnnouncementsAlert"] {
+    color: #8e8e8e;
+}
+
+/* "Dashboard View" popup */
+body>span>span[data-position-content="Menu_0"]>span {
+    background-color: #222;
+}
+body>span>span[data-position-content="Menu_0"] ul,
+body>span>span[data-position-content="Menu_0"] li,
+body>span>span[data-position-content="Menu_0"] li>span{
+    background-color: #363636;
+}
+body>span>span[data-position-content="Menu_0"] li span[class$="-menuItemGroup__label"] {
+    background-color: #363636;
+    color: #fff;
+}
+body>span>span[data-position-content="Menu_0"] li>span>span>span {
+    color: #c8c8c8;
+}
+body>span>span[data-position-content="Menu_0"] li span#MenuItemGroup_0>span {
+    color: #fff;
 }
 
 

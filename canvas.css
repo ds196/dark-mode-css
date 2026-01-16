@@ -342,6 +342,31 @@ span#inbox-conversation-holder div[class$="-checkbox"]>label>span>span {
 
 
 /***************************/
+/*        Files Page       */
+/***************************/
+
+div.ic-Layout-contentMain form[name="files-search"] label>span {
+    color: var(--bctext-2);
+}
+div#content span div#files-table>div>div {
+    background-color: #000;
+}
+div#content span div#files-table>div>div>div {
+    background-color: var(--bcbackground-2);
+    color: var(--bctext-1);
+}
+
+
+/***************************/
+/*    Announcements Page   */
+/***************************/
+
+span#module_sequence_footer_container>div {
+    background-color: var(--bcbackground-0);
+}
+
+
+/***************************/
 /*   Compose Message Box   */
 /***************************/
 

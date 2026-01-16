@@ -21,9 +21,39 @@
     color: #6c6c6c;
 }
 
+/* Misc buttons */
+[class*="-baseButton__content"] {
+    background: #292929;
+    border-color: #3c3c3c;
+    color: #eaeaea !important;
+}
+a[class$="-view--inlineBlock-baseButton"]:active {
+    background: #0e0e0e;
+}
+button[class$="-view--block-baseButton"],
+button[class$="-view--block-baseButton"]:hover,
+span[class$="-view--block-baseButton"],
+span[class$="-view--block-baseButton"]:hover {
+    background: #0e0e0e;
+}
+
 /* Side bar bubble numbers */
-ul#menu.ic-app-header__menu-list span.menu-item__badge>span {
+ul#menu.ic-app-header__menu-list span.menu-item__badge>span,
+div#sticky-container.ic-sticky-frame li>a>b {
     color: #252525;
+}
+
+/* Side bar course subtext */
+div.tray-with-space-for-global-nav span ul>li>div {
+    color: var(--bctext-1);
+}
+
+/* Side bar selected main item */
+ul#menu.ic-app-header__menu-list>li.ic-app-header__menu-list-item--active>a {
+    background-color: rgb(44, 105, 125) !important;
+}
+ul#menu.ic-app-header__menu-list>li.ic-app-header__menu-list-item--active>a svg {
+    fill: var(--bcsidebar-text) !important;
 }
 
 
@@ -39,6 +69,23 @@ div.ic-notification span.notification_message p>span {
 /* After closing message */
 div#announcementWrapper div[data-testid="globalAnnouncementsAlert"] {
     color: #8e8e8e;
+}
+
+/* SIE Message */
+div#dvInner_SeriousTask {
+    border: 1px solid #494949 !important;
+}
+div#dvInner_SeriousTask>div> div+div> div {
+    border-top: 1px solid #494949;
+}
+div#dvInner_SeriousTask>div> div+div> div>a {
+    border-bottom: 1px solid #494949;
+}
+div#dvInner_SeriousTask>div> div+div+div {
+    border: 1px solid var(--bcbackground2) !important;
+}
+div#dvInner_SeriousTask>div> div+div+div> div {
+    background-color: var(--bcbackground-2);
 }
 
 /* "Dashboard View" popup */
@@ -154,9 +201,9 @@ table[data-testid="uploaded_files_table"] tbody tr td[data-testid="file-size"] {
 }
 
 
-/******************************/
-/*  Assignments details page  */
-/******************************/
+/*****************************/
+/*  Assignment details page  */
+/*****************************/
 
 /* Header */
 div[data-testid="assignments-2-student-view"]>div[class$="-view"] {
@@ -166,16 +213,6 @@ div[data-testid="assignments-2-student-view"]>div[class$="-view"] {
 /* Header text */
 div[data-testid="assignments-2-student-view"] span[class$="-text"] {
     color: #aaa;
-}
-
-/* Misc buttons */
-[class*="-baseButton__content"] {
-    background: #292929;
-    border-color: #3c3c3c;
-    color: #eaeaea !important;
-}
-a[class$="-view--inlineBlock-baseButton"]:active {
-    background: #0e0e0e;
 }
 
 /* "Canvas Files" */
@@ -251,6 +288,12 @@ div iframe {
     border-left: none !important;
 }
 
+/* pure text submission */
+div[data-testid$="-student-view"]>div[data-testid$="-student-content-tabs"]>span>div>div>div {
+    background-color: var(--bcbackground2) !important;
+    border-color: #171717 !important;
+}
+
 
 /***************************/
 /*        Inbox Page       */
@@ -305,4 +348,14 @@ span#inbox-conversation-holder div[class$="-checkbox"]>label>span>span {
 /* Selected file */
 div.ef-directory div.ef-item-row.ef-item-selected {
     background-color: #2f2f2f;
+}
+
+
+/***************************/
+/*   Compose Message Box   */
+/***************************/
+
+/* Header at top of page */
+#root {
+    background-color: #000;
 }
